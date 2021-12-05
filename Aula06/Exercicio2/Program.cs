@@ -38,7 +38,7 @@ namespace Exercicio2
         // Inicializa uma nova instância da classe Program
         private Program()
         {
-            // Definir nome ("dados.txt.gz") e localização ("My Documents") do
+            // Definir nome ("dados.txt.gz") e localização ("Desktop") do
             // ficheiro onde guardar os dados comprimidos
             ficheiro = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
